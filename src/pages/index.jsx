@@ -1,8 +1,8 @@
 import React from 'react';
-import Button from '@/atoms/Button/Button';
+import Link from 'next/link';
 
 const Home = () => {
-  return <Button />;
+  return <Link href="/product_page">es</Link>;
 };
 
 export default Home;
